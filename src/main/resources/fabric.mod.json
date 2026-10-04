@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "northerncompass",
+  "version": "${version}",
+  "name": "Northern Compass",
+  "description": "Compasses point North",
+  "authors": [
+    "LXGaming"
+  ],
+  "contact": {
+    "homepage": "https://github.com/LXGaming/NorthernCompass",
+    "sources": "https://github.com/LXGaming/NorthernCompass"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/northerncompass/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.lxgaming.northerncompass.NorthernCompass"
+    ]
+  },
+  "mixins": [
+    "northerncompass.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
